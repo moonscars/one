@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+Header {
+    /* background: red; */
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoSection{
+   color:white;
+   /* background-color:green; */
+   font-family:helvetica;
+   display: flex;
+   align-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+   margin:30px;
+}
+.lable{
+    font-family: sans-serif  ;
+    text-transform: capitalize;
+    color:gray;
+    user-select: none;
+    cursor: pointer;
+}
+.lable:hover{
+    color:black
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a0101;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.logo1{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-left: 30px;  
+}
+p.Moto {
+    font-size: 7em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+.homebody {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.image {
+    height: 34em;
+    width: 34em;
+    animation: hand 2s infinite;
+}
+p.moto-flex {
+    font-weight: bold;
+    color: #87ade1;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 2em;
+
+}
+
+
+button.btn-xplore {
+    margin-top:30px ;
+    font-size: 2em;
+    box-shadow: -3px 4px 0px 0 black;
+    background: #E91E63;
+    color: white;
+    height: 2em;
+    width: 8em;
+    border: none;
+    border-radius: 13px;
+} 
+button.btn-xplore:hover{
+    box-shadow: none;
+    margin-top: 32px;
+    margin-left: -3px;
+}
+@keyframes hand{
+    from{
+        transform :rotateX(350deg)
+    
+    }
+    to{
+transform :rotateX(360deg)
+    }
+}
